@@ -1,0 +1,193 @@
+<body bgcolor="white">
+    {% block content %}
+    {% endblock %}
+<style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+/* Header */
+header {
+    background: #1e293b;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+.btn {
+    background: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Forms */
+.form-container {
+    width: 350px;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Dashboard */
+.dashboard {
+    display: flex;
+}
+
+.sidebar {
+    width: 220px;
+    background: #1e293b;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    margin: 15px 0;
+    text-decoration: none;
+}
+
+.main {
+    flex: 1;
+    padding: 30px;
+}
+
+{% comment %} Dashboards CSS {% endcomment %}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f1f5f9;
+}
+
+/* Layout */
+.layout {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 240px;
+    background: #0f172a;
+    color: white;
+    height: 100vh;
+    padding: 25px;
+}
+
+.logo {
+    margin-bottom: 40px;
+}
+
+.sidebar nav a {
+    display: block;
+    color: #cbd5e1;
+    text-decoration: none;
+    margin: 18px 0;
+    transition: 0.3s;
+}
+
+.sidebar nav a:hover {
+    color: white;
+}
+
+/* Main */
+.main {
+    flex: 1;
+}
+
+/* Topbar */
+.topbar {
+    background: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.topbar input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+/* Content */
+.content {
+    padding: 30px;
+}
+
+.content h1 {
+    margin-bottom: 25px;
+}
+
+/* Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+    color: #64748b;
+    margin-bottom: 10px;
+}
+
+.big {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+
+</style> 
+
+</body>

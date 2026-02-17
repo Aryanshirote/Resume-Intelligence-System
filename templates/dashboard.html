@@ -1,0 +1,79 @@
+{% extends "base.html"%}
+{% block content%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Placement Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+<div class="layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2 class="logo">SmartAI</h2>
+
+        <nav>
+            <a href="#">Upload Resume</a>
+            <a href="#">My Resumes</a>
+            <a href="#">Job Matches</a>
+            <a href="#">Skill Analysis</a>
+            <a href="#">Settings</a>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main">
+
+        <!-- Top Navbar -->
+        <header class="topbar">
+            <input type="text" placeholder="Search jobs, skills...">
+            <div class="user">Welcome, User</div>
+        </header>
+
+        <!-- Dashboard Content -->
+        <section class="content">
+
+            <h1>Dashboard Overview</h1>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Resume Score</h3>
+                    <p class="big">78%</p>
+                    <span>Based on last upload</span>
+                </div>
+
+                <div class="card">
+                    <h3>Job Matches</h3>
+                    <p class="big">12</p>
+                    <span>New matching jobs</span>
+                </div>
+
+                <div class="card">
+                    <h3>Skill Gaps</h3>
+                    <p class="big">5</p>
+                    <span>Skills to improve</span>
+                </div>
+
+                <div class="card">
+                    <h3>Applications</h3>
+                    <p class="big">3</p>
+                    <span>Submitted recently</span>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
+
+{%endblock%}
